@@ -11,7 +11,7 @@ docker build \
 --build-arg BUILD_CONFIG=Release \
 --build-arg CMAKE_VERSION=3.28.1 \
 --build-arg CPU_ARCHITECTURE=aarch64 \
---build-arg CUDA_ARCHITECTURES="70;75;80;86;87" \
+--build-arg CUDA_ARCHITECTURES="70;72;75;80;86;87" \
 -t onnx-builder \
 -f Dockerfile .
 ```
